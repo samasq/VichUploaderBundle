@@ -46,6 +46,9 @@ vich_uploader:
     db_driver: orm # or mongodb or propel or phpcr
 ```
 
+VichUploaderBundle supports using multiple database persistence engines simultaneously.
+A default driver is required for the bundle to function as shown above, however extra drivers may be defined in the config under each mapping (see the configuration section for more details).
+
 **Note:**
 
 > Propel requires a bit more in order to work with this bundle. Check [Propel's
